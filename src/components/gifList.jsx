@@ -8,7 +8,7 @@ class GifList extends Component {
 
     render() {
         return (
-            <div class="gif-list">
+            <div className="gif-list">
             <Gif src="https://media2.giphy.com/media/BBkKEBJkmFbTG/200.gif" />
             <Gif src="https://media2.giphy.com/media/BBkKEBJkmFbTG/200.gif" />
             <Gif src="https://media2.giphy.com/media/BBkKEBJkmFbTG/200.gif" />
