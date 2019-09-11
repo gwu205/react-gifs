@@ -5,9 +5,13 @@ class Search extends Component {
         super(props);
     }
 
+    handleUpdate = (event) => {
+        this.props.searchFn(event.target.value);
+    }
+
     render() {
         return (
-            <input className="form-search form-control" placeholder="Search for something..."></input>
+            <input className="form-search form-control" placeholder="Search for something..." onChange={this.handleUpdate}></input>
         )
     }
 }

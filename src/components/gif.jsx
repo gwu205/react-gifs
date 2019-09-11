@@ -7,7 +7,7 @@ class Gif extends Component {
 
     render() {
         return (
-            <img src={this.props.src} className="gif" />
+            <img src={`https://media2.giphy.com/media/${this.props.id}/200.gif`} className="gif" />
         )
     }
 }
